@@ -382,7 +382,7 @@ class UserRenewalNoticeTest(TestCase):
         self.authorization = Authorization()
         self.authorization.user = self.user
         self.authorization.authorizer = self.coordinator
-        self.authorization.date_expires = datetime.today() + timedelta(weeks=2)
+        self.authorization.date_expires = datetime.today() + timedelta(weeks=1)
         self.authorization.save()
         self.authorization.partners.add(self.partner)
 
