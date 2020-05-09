@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: wikipedialibrary@wikimedia.org\n"
-"POT-Creation-Date: 2020-04-07 15:26+0000\n"
+"POT-Creation-Date: 2020-05-09 13:52+0000\n"
 "PO-Revision-Date: 2020-03-09 15:54:00+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -72,12 +72,12 @@ msgstr ""
 
 #: TWLight/applications/forms.py:371
 #: TWLight/applications/templates/applications/application_list_reviewable_include.html:9
-#: TWLight/users/admin.py:106 TWLight/users/models.py:158
+#: TWLight/users/admin.py:114 TWLight/users/models.py:168
 msgid "Username"
 msgstr ""
 
 #. Translators: When filling out an application, this labels the name of the publisher or database the user is applying to
-#: TWLight/applications/forms.py:372 TWLight/applications/helpers.py:102
+#: TWLight/applications/forms.py:372 TWLight/applications/helpers.py:99
 msgid "Partner name"
 msgstr ""
 
@@ -87,62 +87,62 @@ msgid "Renewal confirmation"
 msgstr ""
 
 #. Translators: When filling out an application, users may be required to enter an email they have used to register on the partner's website.
-#: TWLight/applications/forms.py:405 TWLight/applications/helpers.py:114
+#: TWLight/applications/forms.py:405 TWLight/applications/helpers.py:111
 msgid "The email for your account on the partner's website"
 msgstr ""
 
-#: TWLight/applications/forms.py:415 TWLight/applications/helpers.py:117
+#: TWLight/applications/forms.py:415 TWLight/applications/helpers.py:114
 msgid ""
 "The number of months you wish to have this access for before renewal is "
 "required"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify their name
-#: TWLight/applications/helpers.py:94
+#: TWLight/applications/helpers.py:91
 msgid "Your real name"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify the country in which they currently live
-#: TWLight/applications/helpers.py:96
+#: TWLight/applications/helpers.py:93
 msgid "Your country of residence"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify their current occupation
-#: TWLight/applications/helpers.py:98
+#: TWLight/applications/helpers.py:95
 msgid "Your occupation"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify if they are affiliated with an institution (e.g. a university)
-#: TWLight/applications/helpers.py:100
+#: TWLight/applications/helpers.py:97
 msgid "Your institutional affiliation"
 msgstr ""
 
 #. Translators: When filling out an application, users must provide an explanation of why these resources would be useful to them
-#: TWLight/applications/helpers.py:104
+#: TWLight/applications/helpers.py:101
 msgid "Why do you want access to this resource?"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify a particular collection of resources they want access to
-#: TWLight/applications/helpers.py:106
+#: TWLight/applications/helpers.py:103
 msgid "Which collection do you want?"
 msgstr ""
 
 #. Translators: When filling out an application, users may need to specify a particular book they want access to
-#: TWLight/applications/helpers.py:108
+#: TWLight/applications/helpers.py:105
 msgid "Which book do you want?"
 msgstr ""
 
 #. Translators: When filling out an application, users are given a text box where they can include any extra relevant information
-#: TWLight/applications/helpers.py:110
+#: TWLight/applications/helpers.py:107
 msgid "Anything else you want to say"
 msgstr ""
 
 #. Translators: When filling out an application, users may be required to check a box to say they agree with the website's Terms of Use document, which is linked
-#: TWLight/applications/helpers.py:112
+#: TWLight/applications/helpers.py:109
 msgid "You must agree with the partner's terms of use"
 msgstr ""
 
-#: TWLight/applications/helpers.py:121
+#: TWLight/applications/helpers.py:118
 msgid ""
 "Check this box if you would prefer to hide your application from the 'latest "
 "activity' timeline."
@@ -150,7 +150,7 @@ msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling a user's real name
 #. Translators: When viewing a user's profile (e.g. https://wikipedialibrary.wmflabs.org/users/ when logged in), this labels the user's real name.
-#: TWLight/applications/helpers.py:127
+#: TWLight/applications/helpers.py:124
 #: TWLight/users/templates/users/editor_detail_data.html:263
 msgid "Real name"
 msgstr ""
@@ -158,7 +158,7 @@ msgstr ""
 #. Translators: When sending application data to partners, this is the text labelling a user's country of residence
 #. Translators: This labels the section of an application that shows the country of residence of the applicant.
 #. Translators: When viewing a user's profile (e.g. https://wikipedialibrary.wmflabs.org/users/ when logged in), this labels the country in which the user lives.
-#: TWLight/applications/helpers.py:129
+#: TWLight/applications/helpers.py:126
 #: TWLight/applications/templates/applications/application_evaluation.html:100
 #: TWLight/users/templates/users/editor_detail_data.html:275
 msgid "Country of residence"
@@ -166,51 +166,51 @@ msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling a user's occupation
 #. Translators: When viewing a user's profile (e.g. https://wikipedialibrary.wmflabs.org/users/ when logged in), this labels the user's occupation.
-#: TWLight/applications/helpers.py:131
+#: TWLight/applications/helpers.py:128
 #: TWLight/users/templates/users/editor_detail_data.html:287
 msgid "Occupation"
 msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling a user's affiliation
-#: TWLight/applications/helpers.py:133
+#: TWLight/applications/helpers.py:130
 msgid "Affiliation"
 msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling the stream/collection a user requested
-#: TWLight/applications/helpers.py:135
+#: TWLight/applications/helpers.py:132
 msgid "Stream requested"
 msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling the specific title (e.g. a particular book) a user requested
 #. Translators: This labels the section of an application showing which resource the user requested access to. 'Title' refers to the title of a book/paper/journal.
-#: TWLight/applications/helpers.py:137
+#: TWLight/applications/helpers.py:134
 #: TWLight/applications/templates/applications/application_evaluation.html:160
 msgid "Title requested"
 msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling whether a user agreed with the partner's Terms of Use
-#: TWLight/applications/helpers.py:139
+#: TWLight/applications/helpers.py:136
 msgid "Agreed with terms of use"
 msgstr ""
 
 #. Translators: When sending application data to partners, this is the text labelling the user's email on the partner's website, if they had to register in advance of applying.
-#: TWLight/applications/helpers.py:141
+#: TWLight/applications/helpers.py:138
 msgid "Account email"
 msgstr ""
 
 #. Translators: On the contact us page, this labels the link to the Wikipedia Library email address.
 #. Translators: This is the name of the authorization method whereby user accounts are set up by email.
 #. Translators: On the page where coordinators can view data on applications to a partner they coordinate, this is a table column heading for a user's email address.
-#: TWLight/applications/helpers.py:153
+#: TWLight/applications/helpers.py:150
 #: TWLight/emails/templates/emails/contact.html:48
 #: TWLight/resources/models.py:205
 #: TWLight/resources/templates/resources/partner_users.html:27
 #: TWLight/resources/templates/resources/partner_users.html:78
-#: TWLight/users/forms.py:160
+#: TWLight/users/forms.py:175
 msgid "Email"
 msgstr ""
 
-#: TWLight/applications/management/commands/notify_applicants_tou_changes.py:56
+#: TWLight/applications/management/commands/notify_applicants_tou_changes.py:54
 msgid ""
 "Our terms of use have changed. Your applications will not be processed until "
 "you log in and agree to our updated terms."
@@ -290,7 +290,7 @@ msgid ""
 "been processed."
 msgstr ""
 
-#: TWLight/applications/signals.py:250
+#: TWLight/applications/signals.py:247
 msgid ""
 "This partner joined the Library Bundle, which does not require applications."
 "This application will be marked as invalid."
@@ -822,7 +822,7 @@ msgid ""
 "\"{applications_url}\">Your Applications</a> to view the status."
 msgstr ""
 
-#: TWLight/applications/views.py:458 TWLight/applications/views.py:1465
+#: TWLight/applications/views.py:458 TWLight/applications/views.py:1464
 msgid ""
 "This partner does not have any access grants available at this time. You may "
 "still apply for access; your application will be reviewed when access grants "
@@ -904,11 +904,11 @@ msgstr ""
 msgid "Please select at least one application."
 msgstr ""
 
-#: TWLight/applications/views.py:1201
+#: TWLight/applications/views.py:1200
 msgid "Batch update of application(s) {} successful."
 msgstr ""
 
-#: TWLight/applications/views.py:1210
+#: TWLight/applications/views.py:1209
 msgid ""
 "Cannot approve application(s) {} as partner(s) with proxy authorization "
 "method is/are waitlisted and (or) has/have not enough accounts available. If "
@@ -917,33 +917,33 @@ msgid ""
 msgstr ""
 
 #. Translators: This message is shown to coordinators who attempt to assign the same access code to multiple users.
-#: TWLight/applications/views.py:1382
+#: TWLight/applications/views.py:1381
 msgid "Error: Code used multiple times."
 msgstr ""
 
 #. Translators: After a coordinator has marked a number of applications as 'sent', this message appears.
-#: TWLight/applications/views.py:1423
+#: TWLight/applications/views.py:1422
 msgid "All selected applications have been marked as sent."
 msgstr ""
 
-#: TWLight/applications/views.py:1454
+#: TWLight/applications/views.py:1453
 msgid ""
 "Cannot renew application at this time as partner is not available. Please "
 "check back later, or contact us for more information."
 msgstr ""
 
-#: TWLight/applications/views.py:1492
+#: TWLight/applications/views.py:1491
 #, python-brace-format
 msgid "Attempt to renew unapproved app #{pk} has been denied"
 msgstr ""
 
-#: TWLight/applications/views.py:1564
+#: TWLight/applications/views.py:1563
 msgid ""
 "This object cannot be renewed. (This probably means that you have already "
 "requested that it be renewed.)"
 msgstr ""
 
-#: TWLight/applications/views.py:1575
+#: TWLight/applications/views.py:1574
 msgid ""
 "Your renewal request has been received. A coordinator will review your "
 "request."
@@ -1383,7 +1383,7 @@ msgstr ""
 #. Translators: Title for a list of languages if there is only one.
 #. Translators: Users' detected or selected language.
 #: TWLight/graphs/views.py:409 TWLight/resources/models.py:87
-#: TWLight/users/models.py:103 TWLight/users/templates/users/preferences.html:8
+#: TWLight/users/models.py:113 TWLight/users/templates/users/preferences.html:8
 msgid "Language"
 msgstr "{{Identical|Sprooch}}"
 
@@ -2875,272 +2875,284 @@ msgid ""
 "instructions for setting a new one."
 msgstr ""
 
-#: TWLight/users/admin.py:32
+#: TWLight/users/admin.py:33
 msgid "Email preferences"
 msgstr ""
 
-#: TWLight/users/admin.py:75
+#: TWLight/users/admin.py:78
 msgid "user"
 msgstr ""
 
-#: TWLight/users/admin.py:87
+#: TWLight/users/admin.py:90
 msgid "authorizer"
+msgstr ""
+
+#: TWLight/users/admin.py:95
+msgid "partners"
 msgstr ""
 
 #: TWLight/users/app.py:7
 msgid "users"
 msgstr ""
 
-#. Translators: This error message is shown when there's a problem with the authenticated login process.
-#: TWLight/users/authorization.py:228
-msgid "You tried to log in but presented an invalid access  token."
-msgstr ""
-
-#. Translators: This message is shown when the OAuth login process fails because the request came from the wrong website. Don't translate {domain}.
-#: TWLight/users/authorization.py:281 TWLight/users/authorization.py:377
-#, python-brace-format
-msgid "{domain} is not an allowed host."
-msgstr ""
-
-#: TWLight/users/authorization.py:363
-msgid "Did not receive a valid oauth response."
-msgstr ""
-
-#. Translators: This message is shown when the OAuth login process fails.
-#: TWLight/users/authorization.py:390
-msgid "Could not find handshaker."
-msgstr ""
-
-#. Translators: This message is shown when the OAuth login process fails.
-#: TWLight/users/authorization.py:403
-msgid "No session token."
-msgstr ""
-
-#. Translators: This message is shown when the OAuth login process fails.
-#: TWLight/users/authorization.py:416
-msgid "No request token."
-msgstr ""
-
-#. Translators: This message is shown when the OAuth login process fails.
-#: TWLight/users/authorization.py:429
-msgid "Access token generation failed."
-msgstr ""
-
-#: TWLight/users/authorization.py:447
-msgid ""
-"Your Wikipedia account does not meet the eligibility criteria in the terms "
-"of use, so your Wikipedia Library Card Platform account cannot be activated."
-msgstr ""
-
-#: TWLight/users/authorization.py:458
-msgid ""
-"Your Wikipedia account no longer meets the eligibility criteria in the terms "
-"of use, so you cannot be logged in. If you think you should be able to log "
-"in, please email wikipedialibrary@wikimedia.org."
-msgstr ""
-
-#: TWLight/users/authorization.py:476
-msgid "Welcome! Please agree to the terms of use."
-msgstr ""
-
-#: TWLight/users/authorization.py:514
-msgid "Welcome back! Please agree to the terms of use."
-msgstr ""
-
 #. Translators: This is the label for a button that users click to update their public information.
-#: TWLight/users/forms.py:35
+#: TWLight/users/forms.py:36
 msgid "Update profile"
 msgstr ""
 
-#: TWLight/users/forms.py:44
+#: TWLight/users/forms.py:45
 msgid "Describe your contributions to Wikipedia: topics edited, et cetera."
 msgstr ""
 
 #. Translators: Labels the button users click to request a restriction on the processing of their data.
-#: TWLight/users/forms.py:119
+#: TWLight/users/forms.py:134
 msgid "Restrict my data"
 msgstr ""
 
 #. Translators: Users must click this button when registering to agree to the website terms of use.
-#: TWLight/users/forms.py:140
+#: TWLight/users/forms.py:155
 msgid "I agree with the terms of use"
 msgstr ""
 
 #. Translators: this 'I accept' is referenced in the terms of use and should be translated the same way both places.
-#: TWLight/users/forms.py:149
+#: TWLight/users/forms.py:164
 msgid "I accept"
 msgstr ""
 
-#: TWLight/users/forms.py:163
+#: TWLight/users/forms.py:178
 msgid ""
 "Use my Wikipedia email address (will be updated the next time you login)."
 msgstr ""
 
-#: TWLight/users/forms.py:178
+#: TWLight/users/forms.py:193
 msgid "Update email"
 msgstr ""
 
+#: TWLight/users/helpers/validation.py:20
+msgid "All related Partners must share the same Authorization method."
+msgstr ""
+
+#: TWLight/users/helpers/validation.py:24
+msgid "Only Bundle Partners support shared Authorization."
+msgstr ""
+
 #. Translators: Users must agree to the website terms of use.
-#: TWLight/users/models.py:80
+#: TWLight/users/models.py:90
 msgid "Has this user agreed with the terms of use?"
 msgstr ""
 
 #. Translators: This field records the date the user agreed to the website terms of use.
-#: TWLight/users/models.py:86
+#: TWLight/users/models.py:96
 msgid "The date this user agreed to the terms of use."
 msgstr ""
 
-#: TWLight/users/models.py:92
+#: TWLight/users/models.py:102
 msgid ""
 "Should we automatically update their email from their Wikipedia email when "
 "they log in? Defaults to True."
 msgstr ""
 
 #. Translators: Description of the option users have to enable or disable reminder emails for renewals
-#: TWLight/users/models.py:108
+#: TWLight/users/models.py:118
 msgid "Does this user want renewal reminder notices?"
 msgstr ""
 
 #. Translators: Description of the option coordinators have to enable or disable to receive (or not) reminder emails for pending applications
-#: TWLight/users/models.py:113
+#: TWLight/users/models.py:123
 msgid "Does this coordinator want pending app reminder notices?"
 msgstr ""
 
-#: TWLight/users/models.py:119
+#: TWLight/users/models.py:129
 msgid "Does this coordinator want under discussion app reminder notices?"
 msgstr ""
 
 #. Translators: Description of the option coordinators have to enable or disable to receive (or not) reminder emails for approved applications
-#: TWLight/users/models.py:125
+#: TWLight/users/models.py:135
 msgid "Does this coordinator want approved app reminder notices?"
 msgstr ""
 
 #. Translators: The date the user's profile was created on the website (not on Wikipedia).
-#: TWLight/users/models.py:151
+#: TWLight/users/models.py:161
 msgid "When this profile was first created"
 msgstr ""
 
-#: TWLight/users/models.py:161
+#: TWLight/users/models.py:171
 msgid "Wikipedia edit count"
 msgstr ""
 
 #. Translators: Date and time that wp_editcount was updated from Wikipedia.
-#: TWLight/users/models.py:169
+#: TWLight/users/models.py:179
 msgid "When the editcount was updated from Wikipedia"
 msgstr ""
 
-#: TWLight/users/models.py:173
+#: TWLight/users/models.py:183
 msgid "Date registered at Wikipedia"
 msgstr ""
 
 #. Translators: The User ID for this user on Wikipedia
-#: TWLight/users/models.py:178
+#: TWLight/users/models.py:188
 msgid "Wikipedia user ID"
 msgstr ""
 
 #. Translators: Lists the user groups (https://en.wikipedia.org/wiki/Wikipedia:User_access_levels) this editor has. e.g. Confirmed, Administrator, CheckUser
-#: TWLight/users/models.py:185
+#: TWLight/users/models.py:195
 msgid "Wikipedia groups"
 msgstr ""
 
 #. Translators: Lists the individual user rights permissions the editor has on Wikipedia. e.g. sendemail, createpage, move
-#: TWLight/users/models.py:187
+#: TWLight/users/models.py:197
 msgid "Wikipedia user rights"
 msgstr ""
 
-#: TWLight/users/models.py:195
+#: TWLight/users/models.py:205
 msgid ""
 "At their last login, did this user meet the criteria in the terms of use?"
 msgstr ""
 
-#: TWLight/users/models.py:204
+#: TWLight/users/models.py:214
 msgid ""
 "At their last login, did this user meet the account age criterion in the "
 "terms of use?"
 msgstr ""
 
-#: TWLight/users/models.py:213
+#: TWLight/users/models.py:223
 msgid ""
 "At their last login, did this user meet the total editcount criterion in the "
 "terms of use?"
 msgstr ""
 
-#: TWLight/users/models.py:222
+#: TWLight/users/models.py:232
 msgid ""
 "At their last login, did this user meet the 'not currently blocked' "
 "criterion in the terms of use?"
 msgstr ""
 
-#: TWLight/users/models.py:231
+#: TWLight/users/models.py:241
 msgid ""
 "At their last login, did this user meet the recent editcount criterion in "
 "the terms of use?"
 msgstr ""
 
 #. Translators: The date and time that wp_editcount_prev was updated from Wikipedia.
-#: TWLight/users/models.py:241
+#: TWLight/users/models.py:251
 msgid "When the previous editcount was last updated from Wikipedia"
 msgstr ""
 
 #. Translators: The number of edits this user made to all Wikipedia projects at a previous date.
-#: TWLight/users/models.py:250
+#: TWLight/users/models.py:260
 msgid "Previous Wikipedia edit count"
 msgstr ""
 
 #. Translators: The number of edits this user recently made to all Wikipedia projects.
-#: TWLight/users/models.py:260
+#: TWLight/users/models.py:270
 msgid "Recent Wikipedia edit count"
 msgstr ""
 
-#: TWLight/users/models.py:267
+#: TWLight/users/models.py:277
 msgid ""
 "At their last login, did this user meet the criteria for access to the "
 "library card bundle?"
 msgstr ""
 
 #. Translators: Help text asking whether to ignore the 'not currently blocked' requirement for access.
-#: TWLight/users/models.py:275
+#: TWLight/users/models.py:285
 msgid "Ignore the 'not currently blocked' criterion for access?"
 msgstr ""
 
 #. Translators: Describes information added by the user to describe their Wikipedia edits.
-#: TWLight/users/models.py:281
+#: TWLight/users/models.py:291
 msgid "Wiki contributions, as entered by user"
 msgstr ""
 
-#: TWLight/users/models.py:451
+#: TWLight/users/models.py:527
 #, python-brace-format
 msgid "{wp_username}"
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the username of the authorized editor.
-#: TWLight/users/models.py:484
+#: TWLight/users/models.py:559
 msgid "The authorized user."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the user who authorized the editor.
-#: TWLight/users/models.py:498
+#: TWLight/users/models.py:575
 msgid "The authorizing user."
 msgstr ""
 
 #. Translators: This field records the date the authorization expires.
-#: TWLight/users/models.py:507
+#: TWLight/users/models.py:584
 msgid "The date this authorization expires."
 msgstr ""
 
-#. Translators: In the administrator interface, this text is help text for a field where staff can specify the partner for which the editor is authorized.
-#: TWLight/users/models.py:518
-msgid "The partner for which the editor is authorized."
+#. Translators: In the administrator interface, this text is help text for a field where staff can specify the partner(s) for which the editor is authorized.
+#: TWLight/users/models.py:593
+msgid "The partner(s) for which the editor is authorized."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field where staff can specify the partner for which the editor is authoried.
-#: TWLight/users/models.py:529
+#: TWLight/users/models.py:606
 msgid "The stream for which the editor is authorized."
 msgstr ""
 
 #. Translators: In the administrator interface, this text is help text for a field which tracks whether a reminder has been sent about this authorization yet.
-#: TWLight/users/models.py:535
+#: TWLight/users/models.py:612
 msgid "Have we sent a reminder email about this authorization?"
+msgstr ""
+
+#. Translators: This error message is shown when there's a problem with the authenticated login process.
+#: TWLight/users/oauth.py:228
+msgid "You tried to log in but presented an invalid access  token."
+msgstr ""
+
+#. Translators: This message is shown when the OAuth login process fails because the request came from the wrong website. Don't translate {domain}.
+#: TWLight/users/oauth.py:281 TWLight/users/oauth.py:377
+#, python-brace-format
+msgid "{domain} is not an allowed host."
+msgstr ""
+
+#: TWLight/users/oauth.py:363
+msgid "Did not receive a valid oauth response."
+msgstr ""
+
+#. Translators: This message is shown when the OAuth login process fails.
+#: TWLight/users/oauth.py:390
+msgid "Could not find handshaker."
+msgstr ""
+
+#. Translators: This message is shown when the OAuth login process fails.
+#: TWLight/users/oauth.py:403
+msgid "No session token."
+msgstr ""
+
+#. Translators: This message is shown when the OAuth login process fails.
+#: TWLight/users/oauth.py:416
+msgid "No request token."
+msgstr ""
+
+#. Translators: This message is shown when the OAuth login process fails.
+#: TWLight/users/oauth.py:429
+msgid "Access token generation failed."
+msgstr ""
+
+#: TWLight/users/oauth.py:447
+msgid ""
+"Your Wikipedia account does not meet the eligibility criteria in the terms "
+"of use, so your Wikipedia Library Card Platform account cannot be activated."
+msgstr ""
+
+#: TWLight/users/oauth.py:458
+msgid ""
+"Your Wikipedia account no longer meets the eligibility criteria in the terms "
+"of use, so you cannot be logged in. If you think you should be able to log "
+"in, please email wikipedialibrary@wikimedia.org."
+msgstr ""
+
+#: TWLight/users/oauth.py:476
+msgid "Welcome! Please agree to the terms of use."
+msgstr ""
+
+#: TWLight/users/oauth.py:514
+msgid "Welcome back! Please agree to the terms of use."
 msgstr ""
 
 #. Translators: This message is displayed on the confirmation page where users can return their access to partner collections.
